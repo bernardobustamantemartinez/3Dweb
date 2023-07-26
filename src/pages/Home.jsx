@@ -22,7 +22,7 @@ const Home = () => {
 
         <motion.div className='home-content' {...headContainerAnimation}>
           <motion.div {...headTextAnimation}>
-            <h1 className='head-text'>Paleta <br className='x1:block hidden' /> Lab</h1>
+            <h1 className='head-text'>Paleta <br className='x1:block hidden' /> AI</h1>
           </motion.div>
           <motion.div {...headContentAnimation} className='flex flex-col gap-5'>
             <p className='max-w-md font-normal text-gray-600 text-base'>
