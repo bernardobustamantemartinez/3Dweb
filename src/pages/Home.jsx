@@ -14,20 +14,20 @@ const Home = () => {
 
         <motion.header {...slideAnimation('down')}>
           <img 
-          src='./threejs.png' 
+          src='./paleta.png' 
           alt='logo' 
-          className='w-8 h-8 object contain' 
+          className='w-24 h-24 object contain' 
           />
         </motion.header>
 
         <motion.div className='home-content' {...headContainerAnimation}>
           <motion.div {...headTextAnimation}>
-            <h1 className='head-text'>3D <br className='x1:block hidden' /> LAB.</h1>
+            <h1 className='head-text'>Paleta <br className='x1:block hidden' /> Lab</h1>
           </motion.div>
           <motion.div {...headContentAnimation} className='flex flex-col gap-5'>
             <p className='max-w-md font-normal text-gray-600 text-base'>
               Create your own unique t-shirt by uploading your logo to our 3D model. 
-              <strong> Unleash your creativity</strong> and create your brand.
+              <strong> Generate your own logo using AI</strong> and launch your brand.
             </p>
 
             <CustomButton 
